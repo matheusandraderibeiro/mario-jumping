@@ -1,0 +1,80 @@
+.nuvens {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    animation: nuvens infinite linear 10s;
+}
+
+.nuvens2 {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    animation: nuvens2 infinite linear 12s;
+}
+
+.grande-nuvem1 {
+    width: 350px;
+    height: 150px;
+    margin-right: 20px; 
+}
+
+.grande-nuvem2 {
+    width: 150px;
+    height: 100px;
+    margin: 200px 40px 0 0;
+}
+
+.grande-nuvem3 {
+    width: 250px;
+    height: 120px;
+    margin-top: 100px;
+}
+
+.grande-nuvem4 {
+    width: 250px;
+    height: 120px;
+    margin-top: 100px;
+}
+
+.pequena-nuvem1 {
+    width: 200px;
+    height: 100px;
+    margin: 200px -110px 0 0;
+}
+
+.pequena-nuvem2 {
+    width: 200px;
+    height: 100px;
+    margin: 30px 20px 0 0;        
+}
+
+.pequena-nuvem3 {
+    width: 300px;
+    height: 150px;
+    margin: 70px 20px 0 0;             
+}
+
+.pequena-nuvem4 {
+    width: 200px;
+    height: 100px;
+    margin: 200px -110px 0 0;
+}
+
+
+@keyframes nuvens {
+    from {
+        right: -100%;
+    }
+    to {
+        right: 130%;
+    }
+}
+
+@keyframes nuvens2 {
+    from {
+        right: -300%;
+    }
+    to {
+        right: 60%;
+    }
+}

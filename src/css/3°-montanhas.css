@@ -1,0 +1,55 @@
+.fundo-montanhas {
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
+    bottom: 0;
+    width: 300%;
+    animation: fundo-montanhas linear infinite 30s;
+}
+
+.conjunto-montanhas1 {
+    width: 240px;
+    margin-right: 40px;
+}
+
+.conjunto-montanhas2 {
+    width: 275px;
+    margin-right: -40px;
+}
+
+.conjunto-montanhas3 {
+    width: 250px;
+    margin-right: 10px;
+}
+
+.montanha-solitaria1 {
+    position: relative;
+    bottom: 0;
+    height: 300px;
+    margin-right: 200px
+}
+
+.montanha-solitaria2 {
+    position: relative;
+    bottom: 0;
+    width: 100px;
+    height: 150px;
+    margin-right: 200px;
+}
+
+.montanha-solitaria3 {
+    position: relative;
+    bottom: 0;
+    width: 200px;
+    height: 300px;
+    margin-right: 40px;
+}
+
+@keyframes fundo-montanhas {
+    from {
+        right: -330%;
+    }
+    to {
+        right: 0%;
+    }
+}

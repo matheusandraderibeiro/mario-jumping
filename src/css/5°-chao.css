@@ -1,0 +1,75 @@
+.chao_1 {
+    position: absolute;
+    bottom: -44px;
+    width: 500px;
+    animation: cenario-chao1 infinite linear 10s;
+}
+
+.chao_2 {
+    position: absolute;
+    bottom: -23px;
+    width: 100%;
+    animation: cenario-chao2 infinite linear 8s;
+}
+
+.cano-verde {
+    position: absolute;
+    bottom: 37px;
+    width: 100px;
+    animation: cano-animacao linear infinite 1s;
+}
+
+.mario {
+    position: absolute;
+    bottom: 37px;
+    width: 140px;
+}
+
+.jump {
+    animation: jump ease-out 500ms;
+}
+
+@keyframes cenario-chao1 {
+    from {
+        right: -160%;
+    }
+    to {
+        right: 100%;
+    }
+}
+
+@keyframes cenario-chao2 {
+    from {
+        right: -130%;
+    }
+    to {
+        right: 100%;
+    }
+}
+
+@keyframes  cano-animacao {
+    from {
+        right: -30%;
+    }
+    to {
+        right: 100%;
+    }
+}
+
+@keyframes jump {
+    0% {
+        bottom: 37px;
+    }
+    40% {
+        bottom: 190px;
+    }
+    50% {
+        bottom: 190px;
+    }
+    60% {
+        bottom: 190px;
+    }
+    100% {
+        bottom: 37px;
+    }
+}

@@ -1,0 +1,45 @@
+.principal {
+    width: 70%;
+    height: 500px;
+    margin: 3% auto;
+    border: solid 15px yellow;
+    box-shadow: 1px 1px 1px white, -1px -1px 1px white, -1px 1px 1px white, 1px -1px 1px white;
+}
+
+.caixa-conteudo-menu-principal {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;   
+    box-shadow: 5px 5px 1px rgb(255, 166, 0), -5px -5px 1px rgb(255, 166, 0), -5px 5px 1px rgb(255, 166, 0), 5px -5px 1px rgb(255, 166, 0);
+}
+
+.imagem-de-fundo {
+    width: 100%;
+    height: 100%;
+}
+
+.iniciar-jogo {
+    position: absolute;
+    top: 62%;
+    left: 42.5%;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 200ms;
+    border: solid 1px black;
+    box-shadow: 3px 3px 1px black, 3px 0px 1px black;
+    background-color: yellow;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.iniciar-jogo:hover {
+    box-shadow: none;   
+    transform: scale(1.09);
+    border: solid 1px white;
+    text-shadow: 1px 1px white, -1px 1px white, 1px -1px white, -1px -1px white;
+}
